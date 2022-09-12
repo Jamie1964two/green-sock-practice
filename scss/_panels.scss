@@ -1,0 +1,63 @@
+.panels {
+
+  width: 100vw;
+  height: 100vh;
+
+  &__title {
+    background-color: $blue;
+    // padding: 2rem 2rem;
+  }
+
+  &__svg1Box{
+    margin-top: 30vh;
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+    // position: absolute;
+  }
+  // &__svg2Box{
+  //   width: 100%;
+  //   position: absolute;
+  //   opacity:0.1;
+  // }
+
+  &__h2 {
+    margin-top: 1.5rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    opacity:0;
+  }
+
+
+  &__1 {
+    background-color: $lightBlue;
+
+  }
+
+  &__2 {
+    background-color: $red;
+
+  }
+
+  &__3 {
+    background-color: $darkBlue;
+
+  }
+}
+
+.panels > div {
+  position:absolute;
+  height: 100vh;
+  width: 100vw;
+  display: inline-block;
+  top:0;
+  left:0;
+
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+  background-color: $blue;
+}

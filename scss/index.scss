@@ -1,0 +1,7 @@
+@use '../node_modules/sass-rem' as *; 
+@import './variables';
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import './global';
+@import './header';
+@import './panels';
+@import './svg'
